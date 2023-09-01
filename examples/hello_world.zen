@@ -1,0 +1,13 @@
+import IO -- module names are PascalCase, all imports must be at the start
+          -- of a file.
+
+print "Hello World" -- functions names are camelCase, strings
+                    -- surrounded by double quotes.
+
+-- when a file doesn't have a main function, all top level statements are
+-- implicitly gathered into a "do" block.
+print "This is also going to be printed"
+
+
+-- variables are snake case
+
