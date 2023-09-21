@@ -1,4 +1,3 @@
 (executable
  (public_name zenith)
- (name main)
- (libraries zenith))
+ (name main))
