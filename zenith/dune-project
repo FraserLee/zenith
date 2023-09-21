@@ -2,6 +2,9 @@
 
 (name zenith)
 
+(using menhir 2.1)
+
 (package
  (name zenith)
- (depends ocaml dune))
+ (depends ocaml dune)
+)
