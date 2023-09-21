@@ -7,6 +7,8 @@
 %token PLUS MINUS TIMES DIVIDE
 %token EOF
 
+%left PLUS MINUS
+%left TIMES DIVIDE
 %start main
 %type <ast> main
 %type <ast> ast
